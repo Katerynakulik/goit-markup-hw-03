@@ -130,7 +130,7 @@ p {
 
 .title{
     background-color: #2e2f42;
-    height: 600px;
+    padding: 188px 0;
 }
 .container-title{
     display: flex;
@@ -148,11 +148,11 @@ p {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
     height: 120px;
     padding-top: 188px;
     padding-bottom: 36px;
     margin-bottom: 59px;
+    max-width: 496px;
 
    }
 .order-button{
@@ -166,8 +166,9 @@ p {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    display: flex;
-    width: 169px;
+    display: block;
+    min-width: 169px;
+    border: none;
     height: 56px;
     justify-content: center;
     align-items: center;
@@ -177,6 +178,9 @@ p {
     background-color: #404BBF;
 }
 
+.strengths{
+    padding: 120px 0;
+}
 .visually-hidden{
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -214,6 +218,7 @@ p {
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
     
 }
@@ -236,7 +241,7 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    margin-bottom: 74px;
+    margin-bottom: 72px;
 
 }
 .team-list{
@@ -250,6 +255,7 @@ p {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     width: calc((100%-24px*3)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-member{
     display: flex;
@@ -257,8 +263,7 @@ p {
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-    margin-top: 12px;
-    margin-bottom: 22px;
+    padding: 32px 0;
 }
 .team-list-title {
     font-weight: 500;
@@ -266,6 +271,8 @@ p {
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
     
    
 }
@@ -273,12 +280,13 @@ p {
 .team-list-text {
     font-weight: 400;
     line-height: 1.5;
+    text-align: center;
     
 }
 
 .portfolio{
-    margin-top: 106px;
-    margin-bottom: 147px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-title {
     font-weight: 700;
@@ -288,17 +296,17 @@ p {
     text-transform: capitalize;
     color:#2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 77px;
     padding-bottom: 19px;
-    margin-bottom: 147px;
+    row-gap: 48px;
 }
 .portfolio-list-item{
-    width: calc((100%-24*2)/3);
+    width: calc((100%-48px)/3);
 }
 .portfolio-list-title {
     font-weight: 500;
@@ -307,6 +315,8 @@ p {
     color: #2e2f42;
     letter-spacing: 0.02em;
     display: block;
+    margin-bottom: 8px;
+    
 }
 
 .portfolio-list-text {
@@ -320,8 +330,8 @@ p {
     justify-content: flex-start;
     flex-direction: column;
     gap: 18px;
-    margin-top: 35px;
-    margin-bottom: 38px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .footer{
@@ -332,9 +342,7 @@ p {
     letter-spacing: 0.03em;  
     font-weight: 400;
     text-align: left;
-    
-        
-    padding: 108px 0;
+    padding: 100px 0;
     
 }
 .footer .span-studio {
@@ -348,6 +356,10 @@ p {
     letter-spacing: 0.02em;
     width: 264px;
     height: 72px;
+}
+.footer.logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-container{
     
