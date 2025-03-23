@@ -304,13 +304,13 @@ p {
     flex-wrap: wrap;
     gap: 24px;
     padding-bottom: 19px;
-    row-gap: 48px;
+    
 }
-.portfolio-list-item{
+.portfolio-list-item {
     width: calc((100%-48px)/3);
 }
 
-.portfolio-img{
+.portfolio-img {
     width: calc((100% - 48px) / 3);
 }
 
@@ -367,15 +367,4 @@ p {
 .down-logo{
     display: inline-block;
     margin-bottom: 16px;
-}
-.footer-container{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-    text-align: left;
-    padding: 0 15px;
-    
-    
 }
