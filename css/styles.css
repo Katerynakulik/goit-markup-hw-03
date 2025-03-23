@@ -303,6 +303,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     padding-bottom: 19px;
     
 }
@@ -311,7 +312,7 @@ p {
 }
 
 .portfolio-img {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .portfolio-list-title {
