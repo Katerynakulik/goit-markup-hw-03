@@ -30,6 +30,10 @@ h6,
 p {
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
@@ -94,7 +98,7 @@ p {
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
 }
@@ -136,7 +140,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
     
    
 }
@@ -148,10 +152,9 @@ p {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    height: 120px;
-    padding-top: 188px;
+   
     padding-bottom: 36px;
-    margin-bottom: 59px;
+    
     max-width: 496px;
 
    }
@@ -172,7 +175,7 @@ p {
     height: 56px;
     justify-content: center;
     align-items: center;
-    margin-top: 59px;
+  
 }
 .order-button:hover, .order-button:focus{
     background-color: #404BBF;
@@ -199,7 +202,8 @@ p {
 .strengths-list{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 24px;calc((100%-24px*3)/4);
+    flex-basis:
     margin-top: 120px;
     margin-bottom: 120px;
 
@@ -209,7 +213,7 @@ p {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: calc((100%-24px*3)/4);
+
 
 }
 .strengths-list-title{
@@ -218,7 +222,7 @@ p {
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+
 
     
 }
@@ -231,7 +235,7 @@ p {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 107px;
+   
 }
 .team-title {
     font-weight: 700;
@@ -241,20 +245,19 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 
 }
 .team-list{
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-bottom: 120px;
+    flex-basis: calc((100%-24px*3)/4);
     
 }
 .team-list-item{
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
-    width: calc((100%-24px*3)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .team-member{
@@ -272,7 +275,7 @@ p {
     color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     
    
 }
@@ -297,7 +300,7 @@ p {
     text-transform: capitalize;
     color:#2e2f42;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
@@ -305,6 +308,7 @@ p {
     gap: 24px;
     row-gap: 48px;
     padding-bottom: 19px;
+    flex-basis: calc ((100% - 48px) / 3);
     
 }
 .portfolio-list-item {
@@ -312,7 +316,7 @@ p {
 }
 
 .portfolio-img {
-    width: calc ( ( 100% - 48px ) / 3 );
+    
 }
 
 .portfolio-list-title {
@@ -322,7 +326,7 @@ p {
     color: #2e2f42;
     letter-spacing: 0.02em;
     display: block;
-    margin-bottom: 8px;
+    
     
 }
 
