@@ -300,7 +300,7 @@ a{
     text-transform: capitalize;
     color:#2e2f42;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
@@ -326,7 +326,7 @@ a{
     color: #2e2f42;
     letter-spacing: 0.02em;
     display: block;
-    
+    margin-bottom: 8px;
     
 }
 
