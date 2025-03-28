@@ -298,8 +298,11 @@ a{
     gap: 24px;
     row-gap: 48px;
     padding-bottom: 19px;
-    flex-basis: calc ((100% - 48px) / 3);
-    
+       
+}
+
+.portfolio-list-item{
+    width: calc ((100% - 48px) / 3);
 }
 
 .portfolio-list-title {
